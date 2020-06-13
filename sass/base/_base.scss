@@ -1,0 +1,19 @@
+/*BASIC CSS STYLE RESET */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    //This defines what 1rem is
+    font-size: 62.5%;
+}
+
+/* Setting project wide css definitions */
+body {
+
+    box-sizing: border-box;
+}
